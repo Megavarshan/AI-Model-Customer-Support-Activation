@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Customer Support Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">AI-Powered Customer Support Dashboard</h1>
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <h3>Customer Query</h3>
+                <textarea id="customer_query" class="form-control" rows="5"></textarea>
+                <button id="submit_query" class="btn btn-primary mt-3">Submit Query</button>
+            </div>
+            <div class="col-md-6">
+                <h3>AI Response</h3>
+                <div id="ai_response" class="alert alert-info"></div>
+                <h4>Sentiment Analysis</h4>
+                <div id="sentiment_analysis" class="alert alert-warning"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="static/js/scripts.js"></script>
+</body>
+</html>
